@@ -13,7 +13,7 @@ environment {
         stage('Application repository') {
             steps {
                 echo "Cloning application repository"
-                sh 'git clone https://github.com/DJABLOUEZIN/devops-camp-pipeline.git'
+                sh 'git clone https://github.com/DJABLOUEZIN/afs-labs-student.git'
 
                 dir('afs-labs-student') {
                     script {
